@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "scripts": {
+    "start": "node app.js",
     "migration": "npx sequelize db:migrate",
     "migration:undo": "npx sequelize-cli db:migrate:undo",
     "migration:undo:all": "npx sequelize-cli db:migrate:undo:all",
